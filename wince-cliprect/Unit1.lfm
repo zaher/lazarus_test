@@ -1,0 +1,79 @@
+object Form1: TForm1
+  Left = 344
+  Height = 252
+  Top = 168
+  Width = 224
+  Caption = 'Form1'
+  ChildSizing.EnlargeHorizontal = crsScaleChilds
+  ChildSizing.EnlargeVertical = crsScaleChilds
+  ChildSizing.ShrinkHorizontal = crsScaleChilds
+  ChildSizing.ShrinkVertical = crsScaleChilds
+  ClientHeight = 232
+  ClientWidth = 224
+  Menu = MainMenu1
+  OnCreate = FormCreate
+  OnResize = FormResize
+  OnShow = FormShow
+  LCLVersion = '1.1'
+  object Button1: TButton
+    Left = 2
+    Height = 25
+    Top = 201
+    Width = 36
+    Anchors = [akLeft, akBottom]
+    Caption = 'Flip'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object LogEdit: TMemo
+    Left = 2
+    Height = 110
+    Top = 90
+    Width = 220
+    Anchors = [akLeft, akRight, akBottom]
+    ScrollBars = ssVertical
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 40
+    Height = 25
+    Top = 201
+    Width = 68
+    Anchors = [akLeft, akBottom]
+    Caption = 'Clear Log'
+    OnClick = Button2Click
+    TabOrder = 2
+  end
+  object Button3: TButton
+    Left = 108
+    Height = 25
+    Top = 201
+    Width = 53
+    Anchors = [akLeft, akBottom]
+    Caption = 'Get Log'
+    OnClick = Button3Click
+    TabOrder = 3
+  end
+  object Button4: TButton
+    Left = 161
+    Height = 25
+    Top = 201
+    Width = 53
+    Anchors = [akLeft, akBottom]
+    Caption = 'Refresh'
+    OnClick = Button4Click
+    TabOrder = 4
+  end
+  object MainMenu1: TMainMenu
+    left = 75
+    top = 29
+    object MenuItem1: TMenuItem
+      Caption = 'Exit'
+      OnClick = MenuItem1Click
+    end
+    object MenuItem2: TMenuItem
+      Caption = 'Quit'
+      OnClick = MenuItem2Click
+    end
+  end
+end

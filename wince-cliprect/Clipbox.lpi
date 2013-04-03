@@ -1,0 +1,780 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <MainUnit Value="0"/>
+      <UseAppBundle Value="False"/>
+      <Icon Value="0"/>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <VersionInfo>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <MacroValues Count="1">
+      <Macro1 Name="LCLWidgetType" Value="wince"/>
+    </MacroValues>
+    <BuildModes Count="2" Active="wince">
+      <Item1 Name="wince" Default="True"/>
+      <Item2 Name="win32">
+        <MacroValues Count="1">
+          <Macro1 Name="LCLWidgetType" Value="wince"/>
+        </MacroValues>
+        <CompilerOptions>
+          <Version Value="11"/>
+          <PathDelim Value="\"/>
+          <Target>
+            <Filename Value="Clipbox"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <OtherUnitFiles Value="W:\home\pascal\lib\wince\"/>
+          </SearchPaths>
+          <CodeGeneration>
+            <Optimizations>
+              <OptimizationLevel Value="0"/>
+            </Optimizations>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <UseValgrind Value="True"/>
+            </Debugging>
+            <Options>
+              <Win32>
+                <GraphicApplication Value="True"/>
+              </Win32>
+            </Options>
+          </Linking>
+          <Other>
+            <CompilerMessages>
+              <UseMsgFile Value="True"/>
+            </CompilerMessages>
+            <CompilerPath Value="$(CompPath)"/>
+          </Other>
+          <LCLWidgetType Value="wince"/>
+        </CompilerOptions>
+      </Item2>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPackages>
+    <Units Count="66">
+      <Unit0>
+        <Filename Value="Clipbox.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Clipbox"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="19" Y="8"/>
+        <UsageCount Value="52"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="Unit1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit1"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="226"/>
+        <CursorPos X="1" Y="245"/>
+        <UsageCount Value="52"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\..\lazarus\lcl\controls.pp"/>
+        <UnitName Value="Controls"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="2867"/>
+        <CursorPos X="1" Y="2886"/>
+        <UsageCount Value="17"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\lazarus\lcl\include\control.inc"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="2108"/>
+        <CursorPos X="1" Y="2127"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\lazarus\lcl\include\winapih.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="159"/>
+        <CursorPos X="10" Y="177"/>
+        <UsageCount Value="23"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\..\lazarus\lcl\include\intfbasewinapi.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1208"/>
+        <CursorPos X="3" Y="1211"/>
+        <UsageCount Value="20"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\..\lazarus\lcl\include\wincontrol.inc"/>
+        <EditorIndex Value="5"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="4836"/>
+        <CursorPos X="1" Y="4853"/>
+        <UsageCount Value="13"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\..\lazarus\lcl\include\lclintfh.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="15"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\..\lazarus\lcl\include\intfbaselcl.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="532"/>
+        <CursorPos X="37" Y="537"/>
+        <UsageCount Value="19"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\..\lazarus\lcl\interfaces\win32\win32wscontrols.pp"/>
+        <UnitName Value="Win32WSControls"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="608"/>
+        <CursorPos X="3" Y="617"/>
+        <UsageCount Value="10"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="..\..\lazarus\lcl\interfaces\win32\win32winapi.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="3098"/>
+        <CursorPos X="17" Y="3105"/>
+        <UsageCount Value="15"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="..\..\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="416"/>
+        <CursorPos X="23" Y="437"/>
+        <UsageCount Value="10"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="V:\programs\FPC\2.4\src\packages\fcl-image\src\fpcanvas.pp"/>
+        <UnitName Value="FPCanvas"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="214"/>
+        <CursorPos X="27" Y="235"/>
+        <UsageCount Value="14"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="V:\programs\FPC\2.4\src\packages\fcl-image\src\fpcanvas.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="256"/>
+        <CursorPos X="3" Y="258"/>
+        <UsageCount Value="14"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="..\..\lazarus\lcl\graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="229"/>
+        <CursorPos X="9" Y="236"/>
+        <UsageCount Value="15"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="..\..\lazarus\lcl\include\canvas.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="68"/>
+        <CursorPos X="36" Y="81"/>
+        <UsageCount Value="14"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="..\..\lazarus\lcl\include\region.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="146"/>
+        <CursorPos X="3" Y="159"/>
+        <UsageCount Value="10"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="..\..\lazarus\lcl\include\winapi.inc"/>
+        <EditorIndex Value="6"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="595"/>
+        <CursorPos X="1" Y="613"/>
+        <UsageCount Value="14"/>
+        <Loaded Value="True"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="..\..\lazarus\lcl\include\lclintf.inc"/>
+        <EditorIndex Value="4"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="359"/>
+        <CursorPos X="1" Y="367"/>
+        <UsageCount Value="15"/>
+        <Loaded Value="True"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="V:\programs\FPC\2.4\src\rtl\win\wininc\func.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="738"/>
+        <CursorPos X="10" Y="747"/>
+        <UsageCount Value="14"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="..\..\lazarus\lcl\interfaces\wince\wincewinapih.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="125"/>
+        <CursorPos X="10" Y="144"/>
+        <UsageCount Value="15"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="..\..\lazarus\lcl\include\graphiccontrol.inc"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="29"/>
+        <CursorPos X="1" Y="46"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="..\..\lazarus\lcl\interfacebase.pp"/>
+        <UnitName Value="InterfaceBase"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="9"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="..\..\lazarus\lcl\interfaces\wince\wincewinapi.inc"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="7"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1412"/>
+        <CursorPos X="41" Y="1433"/>
+        <UsageCount Value="19"/>
+        <Bookmarks Count="1">
+          <Item0 X="35" Y="1439" ID="0"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="..\..\lazarus\lcl\interfaces\carbon\carbonwinapi.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="3437"/>
+        <CursorPos X="13" Y="3452"/>
+        <UsageCount Value="9"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="..\..\lazarus\lcl\interfaces\wince\wincecallback.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="423"/>
+        <CursorPos X="22" Y="441"/>
+        <UsageCount Value="15"/>
+        <Bookmarks Count="1">
+          <Item0 X="9" Y="441" ID="1"/>
+        </Bookmarks>
+      </Unit25>
+      <Unit26>
+        <Filename Value="..\..\lazarus\lcl\interfaces\gtk2\gtk2winapi.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="115"/>
+        <CursorPos X="25" Y="123"/>
+        <UsageCount Value="10"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="..\..\lazarus\lcl\interfaces\gtk2\gtk2def.pp"/>
+        <UnitName Value="Gtk2Def"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="439"/>
+        <CursorPos X="5" Y="460"/>
+        <UsageCount Value="10"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="..\..\lazarus\lcl\interfaces\qt\qtwinapi.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="4861"/>
+        <CursorPos X="17" Y="4868"/>
+        <UsageCount Value="11"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="..\..\lazarus\lcl\interfaces\qt\qtobjects.pas"/>
+        <UnitName Value="qtobjects"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1842"/>
+        <CursorPos X="20" Y="1865"/>
+        <UsageCount Value="10"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="..\..\lazarus\lcl\interfaces\fpgui\fpguiwinapi.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="211"/>
+        <CursorPos X="36" Y="218"/>
+        <UsageCount Value="9"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="V:\programs\FPC\2.4\src\rtl\win\wininc\redef.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="631"/>
+        <CursorPos X="17" Y="638"/>
+        <UsageCount Value="16"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="..\..\lazarus\lcl\interfaces\wince\winext.pas"/>
+        <UnitName Value="WinExt"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="309"/>
+        <CursorPos X="5" Y="316"/>
+        <UsageCount Value="15"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="V:\programs\FPC\2.4\src\rtl\wince\wininc\coredll.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="14"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="V:\programs\FPC\2.4\src\rtl\wince\wininc\redef.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="107"/>
+        <CursorPos X="1" Y="108"/>
+        <UsageCount Value="13"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="..\..\lazarus\lcl\interfaces\win32\win32winapih.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="182"/>
+        <CursorPos X="10" Y="189"/>
+        <UsageCount Value="14"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="..\..\make-lcl.cmd"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="3"/>
+        <UsageCount Value="9"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="..\..\make-lcl-wince.cmd"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="12" Y="8"/>
+        <UsageCount Value="9"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="..\..\lazarus\lcl\forms.pp"/>
+        <UnitName Value="Forms"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1030"/>
+        <CursorPos X="1" Y="1052"/>
+        <UsageCount Value="11"/>
+      </Unit38>
+      <Unit39>
+        <Filename Value="..\..\lazarus\lcl\include\customform.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="2182"/>
+        <CursorPos X="3" Y="2183"/>
+        <UsageCount Value="11"/>
+      </Unit39>
+      <Unit40>
+        <Filename Value="..\..\lazarus\lcl\extdlgs.pas"/>
+        <UnitName Value="ExtDlgs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="473"/>
+        <CursorPos X="27" Y="494"/>
+        <UsageCount Value="11"/>
+      </Unit40>
+      <Unit41>
+        <Filename Value="V:\programs\FPC\2.4\src\rtl\win\wininc\defines.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1613"/>
+        <CursorPos X="16" Y="1634"/>
+        <UsageCount Value="11"/>
+      </Unit41>
+      <Unit42>
+        <Filename Value="..\..\lazarus\lcl\include\customcontrol.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="97"/>
+        <CursorPos X="13" Y="113"/>
+        <UsageCount Value="11"/>
+      </Unit42>
+      <Unit43>
+        <Filename Value="..\..\lazarus\lcl\interfaces\qt\qtwinapih.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="23"/>
+        <CursorPos X="1" Y="23"/>
+        <UsageCount Value="10"/>
+      </Unit43>
+      <Unit44>
+        <Filename Value="..\..\lazarus\lcl\interfaces\gtk2\gtk2proc.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="5950"/>
+        <CursorPos X="23" Y="5976"/>
+        <UsageCount Value="10"/>
+      </Unit44>
+      <Unit45>
+        <Filename Value="..\..\lazarus\lcl\interfaces\gtk2\gtk2winapih.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="5"/>
+        <CursorPos X="10" Y="40"/>
+        <UsageCount Value="10"/>
+      </Unit45>
+      <Unit46>
+        <Filename Value="..\..\lazarus\lcl\interfaces\gtk\gtkproc.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="920"/>
+        <CursorPos X="16" Y="941"/>
+        <UsageCount Value="10"/>
+      </Unit46>
+      <Unit47>
+        <Filename Value="..\..\lazarus\lcl\interfaces\gtk\gtkdef.pp"/>
+        <UnitName Value="GtkDef"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="448"/>
+        <CursorPos X="60" Y="469"/>
+        <UsageCount Value="10"/>
+      </Unit47>
+      <Unit48>
+        <Filename Value="..\..\lazarus\lcl\interfaces\gtk\gtkwinapi.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="112"/>
+        <CursorPos X="13" Y="118"/>
+        <UsageCount Value="10"/>
+      </Unit48>
+      <Unit49>
+        <Filename Value="W:\home\pascal\lib\wince\WinCEmf.pas"/>
+        <UnitName Value="WinCEmf"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="3" Y="8"/>
+        <UsageCount Value="11"/>
+      </Unit49>
+      <Unit50>
+        <Filename Value="..\..\lazarus\lcl\lcltype.pp"/>
+        <UnitName Value="LCLType"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1533"/>
+        <CursorPos X="17" Y="1540"/>
+        <UsageCount Value="11"/>
+      </Unit50>
+      <Unit51>
+        <Filename Value="V:\programs\FPC\2.4\src\rtl\wince\windows.pp"/>
+        <UnitName Value="windows"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="11"/>
+      </Unit51>
+      <Unit52>
+        <Filename Value="W:\work\delphi\jobs\sahlisoft_2\source\gadgets\pda\mpos\source\MPOS.rc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit52>
+      <Unit53>
+        <Filename Value="W:\work\delphi\jobs\sahlisoft_2\source\gadgets\pda\mpos\source\resource.h"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="C++"/>
+      </Unit53>
+      <Unit54>
+        <Filename Value="CEUX.RC"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="11" Y="3"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit54>
+      <Unit55>
+        <Filename Value="..\..\lazarus\lcl\interfaces\win32\win32wsdialogs.pp"/>
+        <UnitName Value="Win32WSDialogs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="24" Y="13"/>
+        <UsageCount Value="11"/>
+      </Unit55>
+      <Unit56>
+        <Filename Value="..\..\lazarus\lcl\interfaces\wince\winceint.pp"/>
+        <UnitName Value="WinCEInt"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="36"/>
+        <CursorPos X="57" Y="54"/>
+        <UsageCount Value="15"/>
+      </Unit56>
+      <Unit57>
+        <Filename Value="..\..\lazarus\lcl\lclintf.pas"/>
+        <UnitName Value="LCLIntf"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="15"/>
+      </Unit57>
+      <Unit58>
+        <Filename Value="..\..\lazarus\lcl\interfaces\wince\winceproc.pp"/>
+        <UnitName Value="winceproc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="91"/>
+        <CursorPos X="1" Y="91"/>
+        <UsageCount Value="13"/>
+      </Unit58>
+      <Unit59>
+        <Filename Value="..\..\lazarus\lcl\interfaces\win32\win32proc.pp"/>
+        <UnitName Value="win32proc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="810"/>
+        <CursorPos X="3" Y="825"/>
+        <UsageCount Value="13"/>
+      </Unit59>
+      <Unit60>
+        <Filename Value="P:\programs\fpc\2.6\src\packages\fcl-image\src\fpcanvas.pp"/>
+        <UnitName Value="FPCanvas"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="180"/>
+        <CursorPos X="29" Y="199"/>
+        <UsageCount Value="12"/>
+      </Unit60>
+      <Unit61>
+        <Filename Value="P:\programs\fpc\2.6\src\packages\fcl-image\src\fpcanvas.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="127"/>
+        <CursorPos X="28" Y="130"/>
+        <UsageCount Value="12"/>
+      </Unit61>
+      <Unit62>
+        <Filename Value="..\..\lazarus\components\lazutils\laz2_xpath.pas"/>
+        <UnitName Value="laz2_xpath"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="864"/>
+        <CursorPos X="22" Y="865"/>
+        <UsageCount Value="12"/>
+      </Unit62>
+      <Unit63>
+        <Filename Value="P:\programs\fpc\2.6\src\rtl\objpas\math.pp"/>
+        <UnitName Value="math"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="117"/>
+        <CursorPos X="8" Y="121"/>
+        <UsageCount Value="12"/>
+      </Unit63>
+      <Unit64>
+        <Filename Value="..\..\lazarus\lcl\interfaces\wince\alllclintfunits.pas"/>
+        <UnitName Value="AllLCLIntfUnits"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="34" Y="24"/>
+        <UsageCount Value="12"/>
+      </Unit64>
+      <Unit65>
+        <Filename Value="P:\programs\fpc\2.6\src\rtl\win\wininc\redef.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="443"/>
+        <CursorPos X="10" Y="459"/>
+        <UsageCount Value="10"/>
+      </Unit65>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="..\..\lazarus\lcl\include\wincontrol.inc"/>
+        <Caret Line="4857" Column="1" TopLine="4836"/>
+      </Position1>
+      <Position2>
+        <Filename Value="..\..\lazarus\lcl\include\winapi.inc"/>
+        <Caret Line="612" Column="1" TopLine="595"/>
+      </Position2>
+      <Position3>
+        <Filename Value="..\..\lazarus\lcl\interfaces\wince\wincewinapi.inc"/>
+        <Caret Line="2320" Column="40" TopLine="2304"/>
+      </Position3>
+      <Position4>
+        <Filename Value="..\..\lazarus\lcl\include\winapi.inc"/>
+        <Caret Line="613" Column="1" TopLine="595"/>
+      </Position4>
+      <Position5>
+        <Filename Value="..\..\lazarus\lcl\include\wincontrol.inc"/>
+        <Caret Line="4864" Column="1" TopLine="4836"/>
+      </Position5>
+      <Position6>
+        <Filename Value="..\..\lazarus\lcl\include\control.inc"/>
+        <Caret Line="1440" Column="1" TopLine="1426"/>
+      </Position6>
+      <Position7>
+        <Filename Value="..\..\lazarus\lcl\include\control.inc"/>
+        <Caret Line="1441" Column="1" TopLine="1426"/>
+      </Position7>
+      <Position8>
+        <Filename Value="..\..\lazarus\lcl\include\control.inc"/>
+        <Caret Line="1442" Column="1" TopLine="1426"/>
+      </Position8>
+      <Position9>
+        <Filename Value="..\..\lazarus\lcl\include\control.inc"/>
+        <Caret Line="1443" Column="1" TopLine="1426"/>
+      </Position9>
+      <Position10>
+        <Filename Value="..\..\lazarus\lcl\include\control.inc"/>
+        <Caret Line="1444" Column="1" TopLine="1426"/>
+      </Position10>
+      <Position11>
+        <Filename Value="..\..\lazarus\lcl\include\control.inc"/>
+        <Caret Line="2038" Column="1" TopLine="2021"/>
+      </Position11>
+      <Position12>
+        <Filename Value="..\..\lazarus\lcl\include\control.inc"/>
+        <Caret Line="2046" Column="1" TopLine="2021"/>
+      </Position12>
+      <Position13>
+        <Filename Value="..\..\lazarus\lcl\include\control.inc"/>
+        <Caret Line="2052" Column="1" TopLine="2024"/>
+      </Position13>
+      <Position14>
+        <Filename Value="..\..\lazarus\lcl\include\control.inc"/>
+        <Caret Line="2053" Column="1" TopLine="2025"/>
+      </Position14>
+      <Position15>
+        <Filename Value="..\..\lazarus\lcl\include\control.inc"/>
+        <Caret Line="2124" Column="1" TopLine="2108"/>
+      </Position15>
+      <Position16>
+        <Filename Value="..\..\lazarus\lcl\include\control.inc"/>
+        <Caret Line="2125" Column="1" TopLine="2108"/>
+      </Position16>
+      <Position17>
+        <Filename Value="..\..\lazarus\lcl\include\control.inc"/>
+        <Caret Line="2126" Column="1" TopLine="2108"/>
+      </Position17>
+      <Position18>
+        <Filename Value="..\..\lazarus\lcl\include\control.inc"/>
+        <Caret Line="2127" Column="1" TopLine="2108"/>
+      </Position18>
+      <Position19>
+        <Filename Value="Unit1.pas"/>
+        <Caret Line="245" Column="1" TopLine="226"/>
+      </Position19>
+      <Position20>
+        <Filename Value="..\..\lazarus\lcl\interfaces\wince\wincewinapi.inc"/>
+        <Caret Line="1429" Column="1" TopLine="1412"/>
+      </Position20>
+      <Position21>
+        <Filename Value="..\..\lazarus\lcl\include\wincontrol.inc"/>
+        <Caret Line="4853" Column="1" TopLine="4836"/>
+      </Position21>
+      <Position22>
+        <Filename Value="..\..\lazarus\lcl\interfaces\wince\wincewinapi.inc"/>
+        <Caret Line="1429" Column="1" TopLine="1412"/>
+      </Position22>
+      <Position23>
+        <Filename Value="..\..\lazarus\lcl\interfaces\wince\wincewinapi.inc"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position23>
+      <Position24>
+        <Filename Value="..\..\lazarus\lcl\interfaces\wince\wincewinapi.inc"/>
+        <Caret Line="1177" Column="24" TopLine="1158"/>
+      </Position24>
+      <Position25>
+        <Filename Value="..\..\lazarus\lcl\interfaces\wince\wincewinapi.inc"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position25>
+      <Position26>
+        <Filename Value="..\..\lazarus\lcl\interfaces\wince\wincewinapi.inc"/>
+        <Caret Line="1169" Column="24" TopLine="1141"/>
+      </Position26>
+      <Position27>
+        <Filename Value="..\..\lazarus\lcl\interfaces\wince\wincewinapi.inc"/>
+        <Caret Line="2320" Column="1" TopLine="2291"/>
+      </Position27>
+      <Position28>
+        <Filename Value="..\..\lazarus\lcl\interfaces\wince\wincewinapi.inc"/>
+        <Caret Line="330" Column="1" TopLine="313"/>
+      </Position28>
+      <Position29>
+        <Filename Value="..\..\lazarus\lcl\include\wincontrol.inc"/>
+        <Caret Line="4853" Column="1" TopLine="4836"/>
+      </Position29>
+      <Position30>
+        <Filename Value="Unit1.pas"/>
+        <Caret Line="245" Column="1" TopLine="226"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="Clipbox"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <OtherUnitFiles Value="W:\home\pascal\lib\wince\"/>
+    </SearchPaths>
+    <CodeGeneration>
+      <TargetCPU Value="arm"/>
+      <TargetOS Value="wince"/>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <GenerateDebugInfo Value="False"/>
+        <StripSymbols Value="True"/>
+        <UseExternalDbgSyms Value="True"/>
+      </Debugging>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerMessages>
+        <UseMsgFile Value="True"/>
+      </CompilerMessages>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+    <LCLWidgetType Value="wince"/>
+  </CompilerOptions>
+  <Debugging>
+    <BreakPoints Count="1">
+      <Item1>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsGlobal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="..\..\lazarus\lcl\include\canvas.inc"/>
+        <Line Value="95"/>
+      </Item1>
+    </BreakPoints>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+  <EditorMacros Count="0"/>
+</CONFIG>
