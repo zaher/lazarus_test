@@ -1,4 +1,4 @@
 lazarus_test
 ============
 
-Lazarus testiing projects
+Lazarus testing projects
